@@ -1,0 +1,95 @@
+.container{
+    text-align: center;
+    margin-top: 22%;
+    /* background-color: rgb(181, 249, 249); */
+    padding: 40px 30px;
+    width:60%;
+    /* margin-left: 10%; */
+    margin-left: 275px;
+    background: linear-gradient(-225deg, #a2f4f0 0%, #ffbed3 100%,#f7d095 100%);
+    border-radius: 8px;
+    box-shadow: 0 2px 20px hsla(0,5%,96%,.863);
+
+}
+
+#quote{
+    color: rgba(238, 5, 79, 0.872);
+}
+
+ #author{
+    text-align: right;
+     /* align-self: flex-end; */
+     color: #000100c5;
+ }
+
+.bt{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    /* box-shadow: #e22020;
+     */
+     border-color: yellow;
+  }
+  .bt:hover{
+    background-color:  #64ff04;
+    color: white;
+  }
+  #img{
+    width: 30px;
+    height: 30px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+ 
+/* *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}  */
+
+body{
+    display: flex;
+    justify-content: space-between;
+    background: #10010e;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 1rem;  */
+}
+
+ .content2 h1{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+
+}  
+
+.content2 h1:nth-child(1){
+    color:transparent;
+    -webkit-text-stroke: 1px #00ffbf;
+}
+
+.content2 h1:nth-child(2){
+    color: #28f6c2;
+    animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate
+{
+    0%, 100%{
+        clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
+    50%{
+        clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+    }
+}
